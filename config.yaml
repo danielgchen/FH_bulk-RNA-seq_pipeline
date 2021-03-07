@@ -1,0 +1,9 @@
+analysis:
+  full: "false"
+trimming:
+  read1: "AGATCGGAAGAGCACACGTCTGAACTCCAGTCA"
+  read2: "AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGT"
+  source: "TruSeq SingleIndex"
+mapping:
+  gtf: "http://hgdownload.soe.ucsc.edu/goldenPath/mm10/bigZips/genes/mm10.refGene.gtf.gz"
+  fasta: "http://hgdownload.soe.ucsc.edu/goldenPath/mm10/bigZips/genes/mm10.refGene.gtf.gz"
