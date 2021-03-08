@@ -4,4 +4,8 @@ need the following packages
 - cutadapt v3.3
 - BBMap v38.84
 - STAR v2.7.1a
-- 
+- picard v2.25.0
+- samtools v1.9
+- RSeqC v4.0.0
+- GenomicFeatures from R
+- edgeR from R

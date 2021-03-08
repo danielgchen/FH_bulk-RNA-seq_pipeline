@@ -1,3 +1,0 @@
-Module	Section	Sample Name	Source
-FastQC	all_sections	WT_DSS_D1_REP3_read1	/home/dchen/Downloads/FRED_HUTCH/BULK_RNA_SEQ/qc_reports/fastqc_raw/WT_DSS_D1_REP3_read1_fastqc.zip
-FastQC	all_sections	WT_DSS_D1_REP3_read2	/home/dchen/Downloads/FRED_HUTCH/BULK_RNA_SEQ/qc_reports/fastqc_raw/WT_DSS_D1_REP3_read2_fastqc.zip
