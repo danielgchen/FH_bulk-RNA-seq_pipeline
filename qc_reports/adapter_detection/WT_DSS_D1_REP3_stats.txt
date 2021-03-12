@@ -1,0 +1,24 @@
+#File	data/raw_data/WT_DSS_D1_REP3_read1.fastq.gz	data/raw_data/WT_DSS_D1_REP3_read2.fastq.gz
+#Total	27046126
+#Matched	1765	0.00653%
+#Name	Reads	ReadsPct
+TruSeq_Universal_Adapter	1609	0.00595%
+TruSeq_Adapter_Index_3	68	0.00025%
+Reverse_adapter	22	0.00008%
+I5_Primer_Nextera_XT_and_Nextera_Enrichment_[N/S/E]502	12	0.00004%
+PhiX_read2_adapter	11	0.00004%
+I5_Primer_Nextera_XT_Index_Kit_v2_S516	7	0.00003%
+I5_Primer_Nextera_XT_and_Nextera_Enrichment_[N/S/E]503	6	0.00002%
+I5_Primer_Nextera_XT_and_Nextera_Enrichment_[N/S/E]504	5	0.00002%
+I5_Primer_Nextera_XT_and_Nextera_Enrichment_[N/S/E]507	4	0.00001%
+I5_Primer_Nextera_XT_Index_Kit_v2_S511	3	0.00001%
+PCR_Primers	3	0.00001%
+I5_Primer_Nextera_XT_and_Nextera_Enrichment_[N/S/E]506	3	0.00001%
+pcr_dimer	3	0.00001%
+I5_Primer_Nextera_XT_Index_Kit_v2_S521	2	0.00001%
+I5_Primer_Nextera_XT_and_Nextera_Enrichment_[N/S/E]517	2	0.00001%
+I5_Primer_Nextera_XT_Index_Kit_v2_S510	1	0.00000%
+I5_Primer_Nextera_XT_Index_Kit_v2_S518	1	0.00000%
+I5_Primer_Nextera_XT_and_Nextera_Enrichment_[N/S/E]505	1	0.00000%
+PhiX_read1_adapter	1	0.00000%
+RNA_PCR_Primer_Index_3_(RPI3)	1	0.00000%

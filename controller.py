@@ -88,16 +88,16 @@ def trim_raw_data(configs):
     # get adapters
     forward = configs['read1']
     reverse = configs['read2']
-    fastqs = glob('data/raw_data/*read1.fastq.gz')  # TODO change this to correct one
+    fastqs = glob('data/raw_data/*read1.fastq.gz')
     for fastq in fastqs:
         # get data
         raw_fastq1 = fastq
         trimmed_fastq1 = raw_fastq1.replace('raw_data/', 'trimmed_data/').replace('read1', 'trimmed_read1')
         raw_fastq2 = raw_fastq1.replace('read1', 'read2')
         trimmed_fastq2 = raw_fastq2.replace('raw_data/', 'trimmed_data/').replace('read2', 'trimmed_read2')
-        log = raw_fastq1.replace('data/raw_data/', 'qc_reports/cutadapt_trimmed').replace('.fastq.gz', '.cutadapt.out')
+        log = raw_fastq1.replace('data/raw_data/', 'qc_reports/cutadapt_trimmed/').replace('.fastq.gz', '.cutadapt.out')
         # run commands
-        run_command(f'cutadapt -a {forward} -A {reverse} -o {trimmed_fastq1} -p {trimmed_fastq2} {raw_fastq1} {raw_fastq2} -m 20 -q 20 > {log}', 'TRIMMING RAW DATA')
+        run_command(f'cutadapt -a {forward} -A {reverse} -m 20 -q 20 -o {trimmed_fastq1} -p {trimmed_fastq2} {raw_fastq1} {raw_fastq2} > {log}', 'TRIMMING RAW DATA')
 
 
 # qc raw data

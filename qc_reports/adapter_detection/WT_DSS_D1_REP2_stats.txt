@@ -1,0 +1,21 @@
+#File	data/raw_data/WT_DSS_D1_REP2_read1.fastq.gz	data/raw_data/WT_DSS_D1_REP2_read2.fastq.gz
+#Total	39524850
+#Matched	2192	0.00555%
+#Name	Reads	ReadsPct
+TruSeq_Universal_Adapter	2074	0.00525%
+I5_Primer_Nextera_XT_and_Nextera_Enrichment_[N/S/E]502	48	0.00012%
+TruSeq_Adapter_Index_2	39	0.00010%
+I5_Primer_Nextera_XT_Index_Kit_v2_S516	6	0.00002%
+PhiX_read2_adapter	4	0.00001%
+I5_Primer_Nextera_XT_Index_Kit_v2_S521	3	0.00001%
+I5_Primer_Nextera_XT_Index_Kit_v2_S515	3	0.00001%
+Reverse_adapter	3	0.00001%
+I5_Primer_Nextera_XT_and_Nextera_Enrichment_[N/S/E]508	2	0.00001%
+I5_Primer_Nextera_XT_and_Nextera_Enrichment_[N/S/E]506	2	0.00001%
+I5_Primer_Nextera_XT_and_Nextera_Enrichment_[N/S/E]507	2	0.00001%
+I5_Primer_Nextera_XT_Index_Kit_v2_S510	1	0.00000%
+I5_Primer_Nextera_XT_Index_Kit_v2_S511	1	0.00000%
+I5_Primer_Nextera_XT_and_Nextera_Enrichment_[N/S/E]501	1	0.00000%
+I5_Primer_Nextera_XT_and_Nextera_Enrichment_[N/S/E]503	1	0.00000%
+pcr_dimer	1	0.00000%
+I5_Primer_Nextera_XT_Index_Kit_v2_S520	1	0.00000%
