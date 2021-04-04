@@ -1,0 +1,6 @@
+#File	data/raw_data/4301S_read1.fastq.gz	data/raw_data/4301S_read2.fastq.gz
+#Total	45598280
+#Matched	2	0.00000%
+#Name	Reads	ReadsPct
+Reverse_adapter	1	0.00000%
+TruSeq_Adapter_Index_25	1	0.00000%

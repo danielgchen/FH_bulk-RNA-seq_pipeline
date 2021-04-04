@@ -1,0 +1,6 @@
+           Time    Speed        Read     Read   Mapped   Mapped   Mapped   Mapped Unmapped Unmapped Unmapped Unmapped
+                    M/hr      number   length   unique   length   MMrate    multi   multi+       MM    short    other
+Mar 28 23:54:53    210.1     3851107      200    77.0%    199.0     0.3%    13.8%     0.3%     0.0%     8.6%     0.2%
+Mar 28 23:55:53    255.4     8938551      200    77.0%    199.0     0.3%    13.8%     0.3%     0.0%     8.6%     0.2%
+Mar 28 23:57:23    201.1    12065231      200    77.0%    199.0     0.3%    13.8%     0.3%     0.0%     8.6%     0.2%
+ALL DONE!

@@ -97,7 +97,11 @@ def trim_raw_data(configs):
         trimmed_fastq2 = raw_fastq2.replace('raw_data/', 'trimmed_data/').replace('read2', 'trimmed_read2')
         log = raw_fastq1.replace('data/raw_data/', 'qc_reports/cutadapt_trimmed/').replace('.fastq.gz', '.cutadapt.out')
         # run commands
-        run_command(f'cutadapt -a {forward} -A {reverse} -m 20 -q 20 -o {trimmed_fastq1} -p {trimmed_fastq2} {raw_fastq1} {raw_fastq2} > {log}', 'TRIMMING RAW DATA')
+        if(configs['trim']=="true"):
+            run_command(f'cutadapt -a {forward} -A {reverse} -m 20 -q 20 -o {trimmed_fastq1} -p {trimmed_fastq2} {raw_fastq1} {raw_fastq2} > {log}', 'TRIMMING RAW DATA')
+        else:
+            run_command(f'mv {raw_fastq1} {trimmed_fastq1}', 'MOVING READ1')
+            run_command(f'mv {raw_fastq2} {trimmed_fastq2}', 'MOVING READ2')
 
 
 # qc raw data
@@ -254,3 +258,4 @@ main()  # run program
 
 
 # comment
+

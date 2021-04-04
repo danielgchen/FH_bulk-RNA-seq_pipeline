@@ -1,14 +1,15 @@
 analysis:
-  type: "full"
+  type: "wrapup"
 trimming:
-  read1: "AGATCGGAAGAGCACACGTCTGAACTCCAGTCA"
-  read2: "AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGT"
-  source: "TruSeq SingleIndex"
+  trim: "false"
+  read1: ""
+  read2: ""
+  source: "No Adaptor"
 mapping:
   gtf: "http://hgdownload.soe.ucsc.edu/goldenPath/mm10/bigZips/genes/mm10.refGene.gtf.gz"
   fasta: "https://hgdownload.soe.ucsc.edu/goldenPath/mm10/bigZips/chromFa.tar.gz"
-  read_length: 76
-  index_genome: "true"
+  read_length: 100
+  index_genome: "false"
   genes: "https://sourceforge.net/projects/rseqc/files/BED/Mouse_Mus_musculus/mm10_RefSeq.bed.gz/download"
 counting:
-  type: "Antisense-Stranded"
+  type: "Unstranded"

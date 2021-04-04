@@ -1,0 +1,5 @@
+#File	data/raw_data/4220L_read1.fastq.gz	data/raw_data/4220L_read2.fastq.gz
+#Total	54323488
+#Matched	2	0.00000%
+#Name	Reads	ReadsPct
+TruSeq_Universal_Adapter	2	0.00000%

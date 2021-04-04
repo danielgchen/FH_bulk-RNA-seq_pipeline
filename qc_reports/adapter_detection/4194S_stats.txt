@@ -1,0 +1,7 @@
+#File	data/raw_data/4194S_read1.fastq.gz	data/raw_data/4194S_read2.fastq.gz
+#Total	8894820
+#Matched	8	0.00009%
+#Name	Reads	ReadsPct
+TruSeq_Universal_Adapter	6	0.00007%
+I7_Primer_Nextera_XT_and_Nextera_Enrichment_N703	1	0.00001%
+PCR_Primers	1	0.00001%

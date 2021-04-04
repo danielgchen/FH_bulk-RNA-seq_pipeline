@@ -1,0 +1,22 @@
+[WARNING]         multiqc : MultiQC Version v1.10 now available!
+[INFO   ]         multiqc : This is MultiQC v1.9
+[INFO   ]         multiqc : Template    : default
+[INFO   ]         multiqc : Searching   : /home/dchen/Downloads/FRED_HUTCH/BULK_RNA_SEQ/qc_reports/fastqc_raw
+[INFO   ]         multiqc : Searching   : /home/dchen/Downloads/FRED_HUTCH/BULK_RNA_SEQ/qc_reports/fastqc_trimmed
+[INFO   ]         multiqc : Searching   : /home/dchen/Downloads/FRED_HUTCH/BULK_RNA_SEQ/qc_reports/cutadapt_trimmed
+[INFO   ]         multiqc : Searching   : /home/dchen/Downloads/FRED_HUTCH/BULK_RNA_SEQ/qc_reports/mapping_reads
+[INFO   ]           rseqc : Found 12 read_distribution reports
+[INFO   ]           rseqc : Found 12 gene_body_coverage reports
+[INFO   ]           rseqc : Found 12 infer_experiment reports
+[INFO   ]          picard : Found 12 MarkDuplicates reports
+[INFO   ]        samtools : Found 12 idxstats reports
+[INFO   ]            star : Found 12 reports
+[INFO   ]          fastqc : Found 48 reports
+[INFO   ]         multiqc : Compressing plot data
+[INFO   ]         multiqc : Report      : qc_reports/summary/multiqc_report.html
+[INFO   ]         multiqc : Data        : qc_reports/summary/multiqc_data
+[INFO   ]         multiqc : MultiQC complete
+REMOVING DUP AND SPLICE VALUES...
+...FINISHED
+SUMMARIZING QC FOR ALL DATA...
+...FINISHED
