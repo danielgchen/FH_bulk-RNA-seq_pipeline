@@ -1,0 +1,5 @@
+Module	Section	Sample Name	Source
+FastQC	all_sections	68_S54_R1_001	/home/dchen2/BULKRNASEQ_FOR_TGFBCULTURE/qc_reports/fastqc_raw/68_S54_R1_001_fastqc.zip
+FastQC	all_sections	68_S54_R2_001	/home/dchen2/BULKRNASEQ_FOR_TGFBCULTURE/qc_reports/fastqc_raw/68_S54_R2_001_fastqc.zip
+FastQC	all_sections	67_S53_R2_001	/home/dchen2/BULKRNASEQ_FOR_TGFBCULTURE/qc_reports/fastqc_raw/67_S53_R2_001_fastqc.zip
+FastQC	all_sections	67_S53_R1_001	/home/dchen2/BULKRNASEQ_FOR_TGFBCULTURE/qc_reports/fastqc_raw/67_S53_R1_001_fastqc.zip

@@ -1,0 +1,17 @@
+#File	data/raw_data/67_S53_R1_001.fastq.gz	data/raw_data/67_S53_R2_001.fastq.gz
+#Total	77928016
+#Matched	2493	0.00320%
+#Name	Reads	ReadsPct
+I7_Nextera_Transposase_1	1998	0.00256%
+I5_Nextera_Transposase_1	372	0.00048%
+I5_Primer_Nextera_XT_and_Nextera_Enrichment_[N/S/E]502	59	0.00008%
+PhiX_read2_adapter	26	0.00003%
+TruSeq_Universal_Adapter	26	0.00003%
+I5_Primer_Nextera_XT_and_Nextera_Enrichment_[N/S/E]517	4	0.00001%
+I5_Primer_Nextera_XT_and_Nextera_Enrichment_[N/S/E]504	2	0.00000%
+I5_Primer_Nextera_XT_Index_Kit_v2_S510	1	0.00000%
+I5_Primer_Nextera_XT_Index_Kit_v2_S516	1	0.00000%
+I5_Primer_Nextera_XT_and_Nextera_Enrichment_[N/S/E]505	1	0.00000%
+I5_Primer_Nextera_XT_and_Nextera_Enrichment_[N/S/E]506	1	0.00000%
+I5_Primer_Nextera_XT_and_Nextera_Enrichment_[N/S/E]507	1	0.00000%
+RNA_PCR_Primer_(RP1)_part_#_15013198	1	0.00000%

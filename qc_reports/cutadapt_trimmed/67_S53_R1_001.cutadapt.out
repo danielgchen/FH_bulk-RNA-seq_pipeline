@@ -1,0 +1,145 @@
+This is cutadapt 2.9 with Python 3.7.4
+Command line parameters: -a CTGTCTCTTATACAC -A CTGTCTCTTATACAC -m 20 -q 20 -o data/trimmed_data/67_S53_R1_001TRIMMED.fastq.gz -p data/trimmed_data/67_S53_R2_001TRIMMED.fastq.gz data/raw_data/67_S53_R1_001.fastq.gz data/raw_data/67_S53_R2_001.fastq.gz
+Processing reads on 1 core in paired-end mode ...
+Finished in 1833.72 s (47 us/read; 1.27 M reads/minute).
+
+=== Summary ===
+
+Total read pairs processed:         38,964,008
+  Read 1 with adapter:               1,691,858 (4.3%)
+  Read 2 with adapter:               1,689,246 (4.3%)
+Pairs written (passing filters):    38,943,840 (99.9%)
+
+Total basepairs processed: 3,896,400,800 bp
+  Read 1: 1,948,200,400 bp
+  Read 2: 1,948,200,400 bp
+Quality-trimmed:               6,271,593 bp (0.2%)
+  Read 1:     2,359,174 bp
+  Read 2:     3,912,419 bp
+Total written (filtered):  3,869,918,629 bp (99.3%)
+  Read 1: 1,935,399,625 bp
+  Read 2: 1,934,519,004 bp
+
+=== First read: Adapter 1 ===
+
+Sequence: CTGTCTCTTATACAC; Type: regular 3'; Length: 15; Trimmed: 1691858 times
+
+No. of allowed errors:
+0-9 bp: 0; 10-15 bp: 1
+
+Bases preceding removed adapters:
+  A: 14.8%
+  C: 36.5%
+  G: 27.5%
+  T: 21.2%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+3	855910	608812.6	0	855910
+4	221852	152203.2	0	221852
+5	120405	38050.8	0	120405
+6	84772	9512.7	0	84772
+7	43584	2378.2	0	43584
+8	40888	594.5	0	40888
+9	39951	148.6	0	39332 619
+10	43403	37.2	1	41762 1641
+11	41481	9.3	1	40633 848
+12	42175	2.3	1	41014 1161
+13	35032	0.6	1	34534 498
+14	29385	0.1	1	28908 477
+15	18764	0.0	1	18497 267
+16	15705	0.0	1	15336 369
+17	11551	0.0	1	11410 141
+18	12596	0.0	1	12391 205
+19	11792	0.0	1	11627 165
+20	10896	0.0	1	10751 145
+21	5436	0.0	1	5331 105
+22	3629	0.0	1	3580 49
+23	1794	0.0	1	1757 37
+24	358	0.0	1	351 7
+25	79	0.0	1	67 12
+26	56	0.0	1	46 10
+27	72	0.0	1	65 7
+28	47	0.0	1	44 3
+29	51	0.0	1	45 6
+30	19	0.0	1	18 1
+31	27	0.0	1	25 2
+32	22	0.0	1	21 1
+33	20	0.0	1	17 3
+34	13	0.0	1	11 2
+35	12	0.0	1	10 2
+36	9	0.0	1	7 2
+37	10	0.0	1	9 1
+38	9	0.0	1	9
+39	12	0.0	1	10 2
+40	6	0.0	1	5 1
+41	7	0.0	1	6 1
+42	15	0.0	1	3 12
+43	1	0.0	1	1
+44	4	0.0	1	1 3
+46	2	0.0	1	2
+47	6	0.0	1	4 2
+
+
+=== Second read: Adapter 2 ===
+
+Sequence: CTGTCTCTTATACAC; Type: regular 3'; Length: 15; Trimmed: 1689246 times
+
+No. of allowed errors:
+0-9 bp: 0; 10-15 bp: 1
+
+Bases preceding removed adapters:
+  A: 14.9%
+  C: 36.1%
+  G: 27.6%
+  T: 21.3%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+3	853963	608812.6	0	853963
+4	223111	152203.2	0	223111
+5	120784	38050.8	0	120784
+6	79892	9512.7	0	79892
+7	43721	2378.2	0	43721
+8	41270	594.5	0	41270
+9	40614	148.6	0	39982 632
+10	43233	37.2	1	41885 1348
+11	42106	9.3	1	41489 617
+12	41858	2.3	1	41065 793
+13	35459	0.6	1	35130 329
+14	29346	0.1	1	29086 260
+15	19030	0.0	1	18858 172
+16	14367	0.0	1	14202 165
+17	12821	0.0	1	12694 127
+18	12481	0.0	1	12360 121
+19	12264	0.0	1	12162 102
+20	10857	0.0	1	10777 80
+21	5477	0.0	1	5402 75
+22	3770	0.0	1	3723 47
+23	1788	0.0	1	1758 30
+24	420	0.0	1	398 22
+25	117	0.0	1	99 18
+26	78	0.0	1	71 7
+27	92	0.0	1	83 9
+28	61	0.0	1	56 5
+29	54	0.0	1	50 4
+30	23	0.0	1	20 3
+31	30	0.0	1	26 4
+32	23	0.0	1	21 2
+33	22	0.0	1	21 1
+34	16	0.0	1	12 4
+35	17	0.0	1	15 2
+36	15	0.0	1	12 3
+37	10	0.0	1	9 1
+38	14	0.0	1	9 5
+39	12	0.0	1	12
+40	5	0.0	1	5
+41	9	0.0	1	9
+42	3	0.0	1	1 2
+43	1	0.0	1	0 1
+44	3	0.0	1	2 1
+46	2	0.0	1	2
+47	4	0.0	1	2 2
+48	3	0.0	1	2 1

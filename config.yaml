@@ -1,0 +1,20 @@
+analysis:
+  type: "wrapup"
+trimming:
+  trim: "false"
+  fastq_suffix: ".fastq.gz"
+  read1_name: "R1_001"
+  read2_name: "R2_001"
+  read1: "CTGTCTCTTATACAC"
+  read2: "CTGTCTCTTATACAC"
+  source: "Nextera Transposase (Inferred via cutadapt)"
+mapping:
+  map: "false"
+  gtf: "https://hgdownload.soe.ucsc.edu/goldenPath/mm10/bigZips/genes/mm10.refGene.gtf.gz"
+  fasta: "https://hgdownload.soe.ucsc.edu/goldenPath/mm10/bigZips/chromFa.tar.gz"
+  read_length: 50
+  index_genome: "false"
+  genes: "https://sourceforge.net/projects/rseqc/files/BED/Mouse_Mus_musculus/mm10_RefSeq.bed.gz/download"
+  n_cores: 30
+counting:
+  type: "Unstranded"

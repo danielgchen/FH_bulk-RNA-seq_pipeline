@@ -1,0 +1,5 @@
+Module	Section	Sample Name	Source
+RSeQC	read_distribution	67_S53_read_distribution	/home/dchen2/BULKRNASEQ_FOR_TGFBCULTURE/qc_reports/mapping_reads/67_S53_read_distribution.txt
+RSeQC	read_distribution	68_S54_read_distribution	/home/dchen2/BULKRNASEQ_FOR_TGFBCULTURE/qc_reports/mapping_reads/68_S54_read_distribution.txt
+RSeQC	infer_experiment	68_S54_strand_inference	/home/dchen2/BULKRNASEQ_FOR_TGFBCULTURE/qc_reports/mapping_reads/68_S54_strand_inference.txt
+RSeQC	infer_experiment	67_S53_strand_inference	/home/dchen2/BULKRNASEQ_FOR_TGFBCULTURE/qc_reports/mapping_reads/67_S53_strand_inference.txt

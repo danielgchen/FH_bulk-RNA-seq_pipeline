@@ -1,0 +1,287 @@
+{
+    "report_data_sources": {
+        "RSeQC": {
+            "read_distribution": {
+                "67_S53_read_distribution": "/home/dchen2/BULKRNASEQ_FOR_TGFBCULTURE/qc_reports/mapping_reads/67_S53_read_distribution.txt",
+                "68_S54_read_distribution": "/home/dchen2/BULKRNASEQ_FOR_TGFBCULTURE/qc_reports/mapping_reads/68_S54_read_distribution.txt"
+            },
+            "infer_experiment": {
+                "68_S54_strand_inference": "/home/dchen2/BULKRNASEQ_FOR_TGFBCULTURE/qc_reports/mapping_reads/68_S54_strand_inference.txt",
+                "67_S53_strand_inference": "/home/dchen2/BULKRNASEQ_FOR_TGFBCULTURE/qc_reports/mapping_reads/67_S53_strand_inference.txt"
+            }
+        }
+    },
+    "report_general_stats_data": [],
+    "report_general_stats_headers": [],
+    "report_multiqc_command": "/app/software/MultiQC/1.9-foss-2019b-Python-3.7.4/bin/multiqc qc_reports/mapping_reads -o qc_reports/summary_mapped",
+    "report_plot_data": {
+        "rseqc_read_distribution_plot": {
+            "plot_type": "bar_graph",
+            "samples": [
+                [
+                    "67_S53_read_distribution",
+                    "68_S54_read_distribution"
+                ]
+            ],
+            "datasets": [
+                [
+                    {
+                        "name": "CDS_Exons",
+                        "data": [
+                            40314556.0,
+                            36765808.0
+                        ]
+                    },
+                    {
+                        "name": "5'UTR_Exons",
+                        "data": [
+                            2692751.0,
+                            2380061.0
+                        ]
+                    },
+                    {
+                        "name": "3'UTR_Exons",
+                        "data": [
+                            13072933.0,
+                            11201956.0
+                        ]
+                    },
+                    {
+                        "name": "Introns",
+                        "data": [
+                            6612728.0,
+                            4426500.0
+                        ]
+                    },
+                    {
+                        "name": "TSS_up_1kb",
+                        "data": [
+                            435017.0,
+                            273289.0
+                        ]
+                    },
+                    {
+                        "name": "TSS_up_5kb",
+                        "data": [
+                            896799.0,
+                            590646.0
+                        ]
+                    },
+                    {
+                        "name": "TSS_up_10kb",
+                        "data": [
+                            1036743.0,
+                            698423.0
+                        ]
+                    },
+                    {
+                        "name": "TES_down_1kb",
+                        "data": [
+                            324855.0,
+                            212013.0
+                        ]
+                    },
+                    {
+                        "name": "TES_down_5kb",
+                        "data": [
+                            848903.0,
+                            572457.0
+                        ]
+                    },
+                    {
+                        "name": "TES_down_10kb",
+                        "data": [
+                            1348784.0,
+                            872976.0
+                        ]
+                    },
+                    {
+                        "name": "Other_intergenic",
+                        "data": [
+                            6042384.0,
+                            4493433.0
+                        ]
+                    }
+                ]
+            ],
+            "config": {
+                "id": "rseqc_read_distribution_plot",
+                "title": "RSeQC: Read Distribution",
+                "ylab": "# Tags",
+                "cpswitch_counts_label": "Number of Tags",
+                "cpswitch_c_active": false,
+                "stacking": "percent"
+            }
+        },
+        "rseqc_infer_experiment_plot": {
+            "plot_type": "bar_graph",
+            "samples": [
+                [
+                    "67_S53_strand_inference",
+                    "68_S54_strand_inference"
+                ]
+            ],
+            "datasets": [
+                [
+                    {
+                        "name": "Sense",
+                        "data": [
+                            44.440000000000005,
+                            44.32
+                        ]
+                    },
+                    {
+                        "name": "Antisense",
+                        "data": [
+                            44.629999999999995,
+                            43.919999999999995
+                        ]
+                    },
+                    {
+                        "name": "Undetermined",
+                        "data": [
+                            10.93,
+                            11.76
+                        ]
+                    }
+                ]
+            ],
+            "config": {
+                "id": "rseqc_infer_experiment_plot",
+                "title": "RSeQC: Infer experiment",
+                "ylab": "% Tags",
+                "ymin": 0,
+                "ymax": 100,
+                "tt_percentages": false,
+                "ylab_format": "{value}%",
+                "cpswitch": false
+            }
+        }
+    },
+    "report_saved_raw_data": {
+        "multiqc_rseqc_read_distribution": {
+            "67_S53_read_distribution": {
+                "total_reads": 61348912,
+                "total_tags": 71120879,
+                "total_assigned_tags": 65078495,
+                "cds_exons_total_bases": 37040531,
+                "cds_exons_tag_count": 40314556,
+                "cds_exons_tags_kb": 1088.39,
+                "5_utr_exons_total_bases": 27451902,
+                "5_utr_exons_tag_count": 2692751,
+                "5_utr_exons_tags_kb": 98.09,
+                "3_utr_exons_total_bases": 43229733,
+                "3_utr_exons_tag_count": 13072933,
+                "3_utr_exons_tags_kb": 302.41,
+                "introns_total_bases": 1102684830,
+                "introns_tag_count": 6612728,
+                "introns_tags_kb": 6.0,
+                "tss_up_1kb_total_bases": 23760388,
+                "tss_up_1kb_tag_count": 435017,
+                "tss_up_1kb_tags_kb": 18.31,
+                "tss_up_5kb_total_bases": 107635868,
+                "tss_up_5kb_tag_count": 896799,
+                "tss_up_5kb_tags_kb": 8.33,
+                "tss_up_10kb_total_bases": 195017498,
+                "tss_up_10kb_tag_count": 1036743,
+                "tss_up_10kb_tags_kb": 5.32,
+                "tes_down_1kb_total_bases": 26187524,
+                "tes_down_1kb_tag_count": 324855,
+                "tes_down_1kb_tags_kb": 12.4,
+                "tes_down_5kb_total_bases": 112519854,
+                "tes_down_5kb_tag_count": 848903,
+                "tes_down_5kb_tags_kb": 7.54,
+                "tes_down_10kb_total_bases": 198813258,
+                "tes_down_10kb_tag_count": 1348784,
+                "tes_down_10kb_tags_kb": 6.78,
+                "other_intergenic_tag_count": 6042384,
+                "cds_exons_tag_pct": 56.684558130953356,
+                "5_utr_exons_tag_pct": 3.7861610231223377,
+                "3_utr_exons_tag_pct": 18.38128716041319,
+                "introns_tag_pct": 9.297871585642243,
+                "tss_up_1kb_tag_pct": 0.6116586382460205,
+                "tss_up_5kb_tag_pct": 1.2609503884225053,
+                "tss_up_10kb_tag_pct": 1.4577196100177559,
+                "tes_down_1kb_tag_pct": 0.45676460213603376,
+                "tes_down_5kb_tag_pct": 1.1936058889260917,
+                "tes_down_10kb_tag_pct": 1.8964669995150087,
+                "other_intergenic_tag_pct": 8.495935490336109
+            },
+            "68_S54_read_distribution": {
+                "total_reads": 51965554,
+                "total_tags": 60839157,
+                "total_assigned_tags": 56345724,
+                "cds_exons_total_bases": 37040531,
+                "cds_exons_tag_count": 36765808,
+                "cds_exons_tags_kb": 992.58,
+                "5_utr_exons_total_bases": 27451902,
+                "5_utr_exons_tag_count": 2380061,
+                "5_utr_exons_tags_kb": 86.7,
+                "3_utr_exons_total_bases": 43229733,
+                "3_utr_exons_tag_count": 11201956,
+                "3_utr_exons_tags_kb": 259.13,
+                "introns_total_bases": 1102684830,
+                "introns_tag_count": 4426500,
+                "introns_tags_kb": 4.01,
+                "tss_up_1kb_total_bases": 23760388,
+                "tss_up_1kb_tag_count": 273289,
+                "tss_up_1kb_tags_kb": 11.5,
+                "tss_up_5kb_total_bases": 107635868,
+                "tss_up_5kb_tag_count": 590646,
+                "tss_up_5kb_tags_kb": 5.49,
+                "tss_up_10kb_total_bases": 195017498,
+                "tss_up_10kb_tag_count": 698423,
+                "tss_up_10kb_tags_kb": 3.58,
+                "tes_down_1kb_total_bases": 26187524,
+                "tes_down_1kb_tag_count": 212013,
+                "tes_down_1kb_tags_kb": 8.1,
+                "tes_down_5kb_total_bases": 112519854,
+                "tes_down_5kb_tag_count": 572457,
+                "tes_down_5kb_tags_kb": 5.09,
+                "tes_down_10kb_total_bases": 198813258,
+                "tes_down_10kb_tag_count": 872976,
+                "tes_down_10kb_tags_kb": 4.39,
+                "other_intergenic_tag_count": 4493433,
+                "cds_exons_tag_pct": 60.43115949157547,
+                "5_utr_exons_tag_pct": 3.9120545342204527,
+                "3_utr_exons_tag_pct": 18.41241159866827,
+                "introns_tag_pct": 7.275741838434743,
+                "tss_up_1kb_tag_pct": 0.449199189265558,
+                "tss_up_5kb_tag_pct": 0.9708319922973292,
+                "tss_up_10kb_tag_pct": 1.1479827046255753,
+                "tes_down_1kb_tag_pct": 0.34848115992139733,
+                "tes_down_5kb_tag_pct": 0.9409351283417685,
+                "tes_down_10kb_tag_pct": 1.4348916767535091,
+                "other_intergenic_tag_pct": 7.38575815572198
+            }
+        },
+        "multiqc_rseqc_infer_experiment": {
+            "68_S54_strand_inference": {
+                "pe_sense": 0.4432,
+                "pe_antisense": 0.4392,
+                "failed": 0.1176
+            },
+            "67_S53_strand_inference": {
+                "pe_sense": 0.4444,
+                "pe_antisense": 0.4463,
+                "failed": 0.1093
+            }
+        }
+    },
+    "config_analysis_dir_abs": [
+        "/home/dchen2/BULKRNASEQ_FOR_TGFBCULTURE/qc_reports/mapping_reads"
+    ],
+    "config_analysis_dir": [
+        "qc_reports/mapping_reads"
+    ],
+    "config_creation_date": "2023-06-24, 21:24",
+    "config_git_hash": null,
+    "config_intro_text": null,
+    "config_report_comment": null,
+    "config_report_header_info": null,
+    "config_script_path": "/app/software/MultiQC/1.9-foss-2019b-Python-3.7.4/lib/python3.7/site-packages/multiqc/utils",
+    "config_short_version": "1.9",
+    "config_subtitle": null,
+    "config_title": null,
+    "config_version": "1.9"
+}
