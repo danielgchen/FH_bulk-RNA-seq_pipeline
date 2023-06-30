@@ -261,7 +261,7 @@ def qc_mapped_data(configs):
     lines = np.random.choice(lines, size=2000, replace=False)
     # write those random genes down
     genes_fn = genes_fn.replace('.bed','_2k_genes.bed')
-    with open('data/reference/hg38_RefSeq_2k_genes.bed', 'wt') as f:
+    with open(f'data/reference/{genes_fn}', 'wt') as f:
         for line in lines:
             f.writelines(line)
     # get gene bed coverage
