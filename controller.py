@@ -176,7 +176,7 @@ def prep_map_reference(configs):
     run_command(f'gzip -d data/reference/{genes_fn}', 'UNPACKING REFERENCE GENES')
     # index genome
     fasta_files = ' '.join(glob('data/reference/*.fa'))
-    run_command(f'STAR --runThreadN {n_cores} --runMode genomeGenerate --genomeDir data/reference_STAR --genomeFastaFiles {fasta_files} --sjdbGTFfile data/reference/{gtf_fn} --sjdbOverhang {overhang}', 'INDEXING GENOME')
+    run_command(f'STAR --runThreadN {n_cores} --runMode genomeGenerate --genomeDir data/reference_STAR --genomeFastaFiles {fasta_files} --sjdbGTFfile data/reference/{gtf_fn[:-2]} --sjdbOverhang {overhang}', 'INDEXING GENOME')
 
 # map trimmed data
 def map_trimmed_data(configs_trimming, configs_mapping):
