@@ -9,6 +9,7 @@ We run the following command in rhino (make sure that `Anaconda` is not installe
   - module load STAR/2.7.7a-GCC-10.2.0
   - module load picard/2.25.0-Java-11
   - module load SAMtools/1.11-GCC-10.2.0
+  - export PICARD=$EBROOTPICARD/picard.jar
 2. Install pip packages
   - pip install RSeQC
 
